@@ -11,13 +11,22 @@
 🔗 **Live:** [https://sathiai.web.app](https://sathiai.web.app)
 
 ---
+# SathiAI - Visual Showcase
+<p align="center">
+  <img src="phone_view.jpeg" alt="Phone Feed View" width="220" style="border-radius:12px; margin:8px;" />
+  <img src="notification.jpeg" alt="Push Notification" width="220" style="border-radius:12px; margin:8px;" />
+</p>
 
 <p align="center">
-  <img src="phone_view.jpeg" alt="SathiAI Phone View" width="230" style="vertical-align: middle; margin: 10px;" />
-  <img src="notification.jpeg" alt="SathiAI Notification View" width="230" style="vertical-align: middle; margin: 10px;" />
-  <br>
-  <em>Left: Main phone feed UI | Right: Notification and alert flow view</em>
+  <img src="desktop_view.png" alt="Desktop Dashboard" width="860" style="border-radius:12px;" />
 </p>
+
+<p align="center">
+  <img src="admin_acceptngo.png" alt="Admin NGO Approval" width="280" style="border-radius:12px; margin:8px;" />
+  <img src="notification_sending_center.png" alt="Notification Center" width="220" style="border-radius:12px; margin:8px;" />
+  <img src="fake_news_detectionai.png" alt="AI Fake News Detection" width="280" style="border-radius:12px; margin:8px;" />
+</p>
+
 
 
 ## ✨ Features
@@ -29,7 +38,7 @@
 - Appears in the live emergency feed within seconds
 - Pulsing red button always visible in the header for instant access
 
-### 🗺️ Interactive Google Maps Dashboard
+### 🗺️ Interactive  Maps Dashboard
 - Real-time map visualization of all disasters, emergencies, and earthquakes
 - Auto-fetches **NDMA (National Disaster Management Authority)** earthquake data via CAP feed
 - Color-coded markers by disaster type (earthquake 🟤, flood 🔵, fire 🔴, cyclone 🟣, landslide 🟠, etc.)
@@ -53,7 +62,7 @@
 - Live emergency feed with real-time updates
 
 ### 🤖 AI-Powered Resilience Chatbot
-- **Google Grok AI** powered conversational assistant
+- ** Grok AI** powered conversational assistant
 - Provides real-time disaster safety guidance and emergency procedures
 - Answers questions about first aid, evacuation, and survival tips
 - Floating chat bubble with slide-in animation
@@ -149,7 +158,7 @@
 | **Frontend** | HTML5, JavaScript (ES Modules), Tailwind CSS v4, Vite 6 |
 | **Backend** | Firebase (Firestore, Auth, Hosting), Node.js + Express |
 | **AI** |  AI (news verification + chatbot) |
-| **Maps** | Google Maps JavaScript API |
+| **Maps** |  Maps JavaScript API |
 | **Payments** | Razorpay Payment Gateway |
 | **Notifications** | Firebase Cloud Messaging (FCM) |
 | **Images** | Cloudinary CDN |
@@ -220,7 +229,7 @@ sathiai/
 - **Node.js 18+**
 - **Firebase CLI** → `npm install -g firebase-tools`
 - A Firebase project with **Firestore**, **Auth**, and **FCM** enabled
-- **Google Maps API key**
+- ** Maps API key**
 - **Cloudinary** account (cloud name + upload preset)
 - **Razorpay** account (key ID)
 - **GROK AI** API key
@@ -244,7 +253,6 @@ VITE_FIREBASE_PROJECT_ID=your_project_id
 VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
-VITE_GOOGLE_MAPS_KEY=your_google_maps_key
 VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
 VITE_CLOUDINARY_UPLOAD_PRESET=your_preset
 VITE_GROK_API_KEY=your_grok_api_key
@@ -312,7 +320,7 @@ Notification admin dashboard → [http://localhost:3000](http://localhost:3000)
 | Firebase Auth | User authentication |
 | Firebase Hosting | Web app deployment |
 | Firebase Cloud Messaging | Push notifications |
-| Google Maps JS API | Interactive map and markers |
+|  Maps JS API | Interactive map and markers |
 | Grok AI | News verification + chatbot |
 | Razorpay Checkout | Payment processing |
 | Cloudinary Upload | Image hosting CDN |
@@ -330,5 +338,4 @@ This project is open source and available under the [MIT License](LICENSE).
 <p align="center">
   Built with ❤️ for disaster resilience — because timely information saves lives.
 </p>
-
 
