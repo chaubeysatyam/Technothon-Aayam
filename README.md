@@ -19,24 +19,6 @@
   <em>Left: Main phone feed UI | Right: Notification and alert flow view</em>
 </p>
 
-## Image Analysis (JPEG)
-
-### 1. `phone_view.jpeg`
-- Resolution: **540 x 1200** (portrait mobile ratio)
-- Shows the primary mobile disaster feed with stacked report cards and map/report controls.
-- Useful for demonstrating readability, card hierarchy, and one-hand phone layout.
-
-### 2. `notification.jpeg`
-- Resolution: **540 x 1200** (portrait mobile ratio)
-- Shows the mobile notification/alert experience and emergency context.
-- Useful for showcasing real-time warning visibility and urgent UI cues.
-
-### Small Preview Gallery
-
-<p align="left">
-  <img src="phone_view.jpeg" alt="phone_view small preview" width="120" />
-  <img src="notification.jpeg" alt="notification small preview" width="120" />
-</p>
 
 ## ✨ Features
 
@@ -348,4 +330,5 @@ This project is open source and available under the [MIT License](LICENSE).
 <p align="center">
   Built with ❤️ for disaster resilience — because timely information saves lives.
 </p>
+
 
